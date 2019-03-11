@@ -7,6 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "LSSafeProtector.h"
+
+//调试模式
+#ifdef DEBUG
+#define NSLog(...)     NSLog(__VA_ARGS__)
+#define KisDebug 1
+
+//#define NSLog(fmt, ...) NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#else//发布模式
+#define NSLog(...)
+#define KisDebug 0
+#endif
 
 @interface AppDelegate ()
 
@@ -17,6 +30,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    [LSSafeProtector openSafeProtectorWithIsDebug]一定要在其他SDK之前调用
+    
+    
+    BOOL isDebug = KisDebug;
+//     isDebug = 0;// 测试发布版本的效果
+    
+    //#if DEBUG
+    //    isDebug = YES;
+    //#else
+    //    isDebug = NO;
+    //#endif
+    
+    
+//    [Bugly startWithAppId:@""];
+
+    //注意线上环境isDebug一定要设置为NO)
+    [LSSafeProtector openSafeProtectorWithIsDebug:isDebug block:^(NSException *exception, LSSafeProtectorCrashType crashType) {
+        //[Bugly reportException:exception];
+        
+        //此方法相对于上面的方法，好处在于bugly后台查看bug崩溃位置时，不用点击跟踪数据，再点击crash_attach.log，查看里面的额外信息来查看崩溃位置
+//        [Bugly reportExceptionWithCategory:3 name:exception.name reason:[NSString stringWithFormat:@"%@  崩溃位置:%@",exception.reason,exception.userInfo[@"location"]] callStack:@[exception.userInfo[@"callStackSymbols"]] extraInfo:exception.userInfo terminateApp:NO];
+    }];
+
+        id testnil = nil;
+    [@"" stringByAppendingString:testnil];
+    
+
     return YES;
 }
 
