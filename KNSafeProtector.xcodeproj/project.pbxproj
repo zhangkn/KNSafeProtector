@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0417941622363BBB008DA6CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417941522363BBB008DA6CF /* AppDelegate.m */; };
+		0417941922363BBB008DA6CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417941822363BBB008DA6CF /* ViewController.m */; };
+		0417941C22363BBB008DA6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0417941A22363BBB008DA6CF /* Main.storyboard */; };
+		0417941E22363BBE008DA6CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0417941D22363BBE008DA6CF /* Assets.xcassets */; };
+		0417942122363BBE008DA6CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0417941F22363BBE008DA6CF /* LaunchScreen.storyboard */; };
+		0417942422363BBE008DA6CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417942322363BBE008DA6CF /* main.m */; };
+		0417942E22363BBE008DA6CF /* KNSafeProtectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417942D22363BBE008DA6CF /* KNSafeProtectorTests.m */; };
+		0417943922363BBE008DA6CF /* KNSafeProtectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417943822363BBE008DA6CF /* KNSafeProtectorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0417942A22363BBE008DA6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0417940922363BBB008DA6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0417941022363BBB008DA6CF;
+			remoteInfo = KNSafeProtector;
+		};
+		0417943522363BBE008DA6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0417940922363BBB008DA6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0417941022363BBB008DA6CF;
+			remoteInfo = KNSafeProtector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0417941122363BBB008DA6CF /* KNSafeProtector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNSafeProtector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0417941422363BBB008DA6CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0417941522363BBB008DA6CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0417941722363BBB008DA6CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0417941822363BBB008DA6CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0417941B22363BBB008DA6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0417941D22363BBE008DA6CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0417942022363BBE008DA6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0417942222363BBE008DA6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0417942322363BBE008DA6CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0417942922363BBE008DA6CF /* KNSafeProtectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNSafeProtectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0417942D22363BBE008DA6CF /* KNSafeProtectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSafeProtectorTests.m; sourceTree = "<group>"; };
+		0417942F22363BBE008DA6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0417943422363BBE008DA6CF /* KNSafeProtectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNSafeProtectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0417943822363BBE008DA6CF /* KNSafeProtectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSafeProtectorUITests.m; sourceTree = "<group>"; };
+		0417943A22363BBE008DA6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0417940E22363BBB008DA6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0417942622363BBE008DA6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0417943122363BBE008DA6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0417940822363BBB008DA6CF = {
+			isa = PBXGroup;
+			children = (
+				0417941322363BBB008DA6CF /* KNSafeProtector */,
+				0417942C22363BBE008DA6CF /* KNSafeProtectorTests */,
+				0417943722363BBE008DA6CF /* KNSafeProtectorUITests */,
+				0417941222363BBB008DA6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0417941222363BBB008DA6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0417941122363BBB008DA6CF /* KNSafeProtector.app */,
+				0417942922363BBE008DA6CF /* KNSafeProtectorTests.xctest */,
+				0417943422363BBE008DA6CF /* KNSafeProtectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0417941322363BBB008DA6CF /* KNSafeProtector */ = {
+			isa = PBXGroup;
+			children = (
+				0417941422363BBB008DA6CF /* AppDelegate.h */,
+				0417941522363BBB008DA6CF /* AppDelegate.m */,
+				0417941722363BBB008DA6CF /* ViewController.h */,
+				0417941822363BBB008DA6CF /* ViewController.m */,
+				0417941A22363BBB008DA6CF /* Main.storyboard */,
+				0417941D22363BBE008DA6CF /* Assets.xcassets */,
+				0417941F22363BBE008DA6CF /* LaunchScreen.storyboard */,
+				0417942222363BBE008DA6CF /* Info.plist */,
+				0417942322363BBE008DA6CF /* main.m */,
+			);
+			path = KNSafeProtector;
+			sourceTree = "<group>";
+		};
+		0417942C22363BBE008DA6CF /* KNSafeProtectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0417942D22363BBE008DA6CF /* KNSafeProtectorTests.m */,
+				0417942F22363BBE008DA6CF /* Info.plist */,
+			);
+			path = KNSafeProtectorTests;
+			sourceTree = "<group>";
+		};
+		0417943722363BBE008DA6CF /* KNSafeProtectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0417943822363BBE008DA6CF /* KNSafeProtectorUITests.m */,
+				0417943A22363BBE008DA6CF /* Info.plist */,
+			);
+			path = KNSafeProtectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0417941022363BBB008DA6CF /* KNSafeProtector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0417943D22363BBE008DA6CF /* Build configuration list for PBXNativeTarget "KNSafeProtector" */;
+			buildPhases = (
+				0417940D22363BBB008DA6CF /* Sources */,
+				0417940E22363BBB008DA6CF /* Frameworks */,
+				0417940F22363BBB008DA6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNSafeProtector;
+			productName = KNSafeProtector;
+			productReference = 0417941122363BBB008DA6CF /* KNSafeProtector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0417942822363BBE008DA6CF /* KNSafeProtectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0417944022363BBE008DA6CF /* Build configuration list for PBXNativeTarget "KNSafeProtectorTests" */;
+			buildPhases = (
+				0417942522363BBE008DA6CF /* Sources */,
+				0417942622363BBE008DA6CF /* Frameworks */,
+				0417942722363BBE008DA6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0417942B22363BBE008DA6CF /* PBXTargetDependency */,
+			);
+			name = KNSafeProtectorTests;
+			productName = KNSafeProtectorTests;
+			productReference = 0417942922363BBE008DA6CF /* KNSafeProtectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0417943322363BBE008DA6CF /* KNSafeProtectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0417944322363BBE008DA6CF /* Build configuration list for PBXNativeTarget "KNSafeProtectorUITests" */;
+			buildPhases = (
+				0417943022363BBE008DA6CF /* Sources */,
+				0417943122363BBE008DA6CF /* Frameworks */,
+				0417943222363BBE008DA6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0417943622363BBE008DA6CF /* PBXTargetDependency */,
+			);
+			name = KNSafeProtectorUITests;
+			productName = KNSafeProtectorUITests;
+			productReference = 0417943422363BBE008DA6CF /* KNSafeProtectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0417940922363BBB008DA6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kunnan;
+				TargetAttributes = {
+					0417941022363BBB008DA6CF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0417942822363BBE008DA6CF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0417941022363BBB008DA6CF;
+					};
+					0417943322363BBE008DA6CF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0417941022363BBB008DA6CF;
+					};
+				};
+			};
+			buildConfigurationList = 0417940C22363BBB008DA6CF /* Build configuration list for PBXProject "KNSafeProtector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0417940822363BBB008DA6CF;
+			productRefGroup = 0417941222363BBB008DA6CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0417941022363BBB008DA6CF /* KNSafeProtector */,
+				0417942822363BBE008DA6CF /* KNSafeProtectorTests */,
+				0417943322363BBE008DA6CF /* KNSafeProtectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0417940F22363BBB008DA6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0417942122363BBE008DA6CF /* LaunchScreen.storyboard in Resources */,
+				0417941E22363BBE008DA6CF /* Assets.xcassets in Resources */,
+				0417941C22363BBB008DA6CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0417942722363BBE008DA6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0417943222363BBE008DA6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0417940D22363BBB008DA6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0417941922363BBB008DA6CF /* ViewController.m in Sources */,
+				0417942422363BBE008DA6CF /* main.m in Sources */,
+				0417941622363BBB008DA6CF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0417942522363BBE008DA6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0417942E22363BBE008DA6CF /* KNSafeProtectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0417943022363BBE008DA6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0417943922363BBE008DA6CF /* KNSafeProtectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0417942B22363BBE008DA6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0417941022363BBB008DA6CF /* KNSafeProtector */;
+			targetProxy = 0417942A22363BBE008DA6CF /* PBXContainerItemProxy */;
+		};
+		0417943622363BBE008DA6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0417941022363BBB008DA6CF /* KNSafeProtector */;
+			targetProxy = 0417943522363BBE008DA6CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0417941A22363BBB008DA6CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0417941B22363BBB008DA6CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0417941F22363BBE008DA6CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0417942022363BBE008DA6CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0417943B22363BBE008DA6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0417943C22363BBE008DA6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0417943E22363BBE008DA6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7BAT6XFJ4;
+				INFOPLIST_FILE = KNSafeProtector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kunnan.KNSafeProtector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0417943F22363BBE008DA6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7BAT6XFJ4;
+				INFOPLIST_FILE = KNSafeProtector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kunnan.KNSafeProtector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0417944122363BBE008DA6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7BAT6XFJ4;
+				INFOPLIST_FILE = KNSafeProtectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kunnan.KNSafeProtectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KNSafeProtector.app/KNSafeProtector";
+			};
+			name = Debug;
+		};
+		0417944222363BBE008DA6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7BAT6XFJ4;
+				INFOPLIST_FILE = KNSafeProtectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kunnan.KNSafeProtectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KNSafeProtector.app/KNSafeProtector";
+			};
+			name = Release;
+		};
+		0417944422363BBE008DA6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7BAT6XFJ4;
+				INFOPLIST_FILE = KNSafeProtectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kunnan.KNSafeProtectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KNSafeProtector;
+			};
+			name = Debug;
+		};
+		0417944522363BBE008DA6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7BAT6XFJ4;
+				INFOPLIST_FILE = KNSafeProtectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kunnan.KNSafeProtectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KNSafeProtector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0417940C22363BBB008DA6CF /* Build configuration list for PBXProject "KNSafeProtector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0417943B22363BBE008DA6CF /* Debug */,
+				0417943C22363BBE008DA6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0417943D22363BBE008DA6CF /* Build configuration list for PBXNativeTarget "KNSafeProtector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0417943E22363BBE008DA6CF /* Debug */,
+				0417943F22363BBE008DA6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0417944022363BBE008DA6CF /* Build configuration list for PBXNativeTarget "KNSafeProtectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0417944122363BBE008DA6CF /* Debug */,
+				0417944222363BBE008DA6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0417944322363BBE008DA6CF /* Build configuration list for PBXNativeTarget "KNSafeProtectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0417944422363BBE008DA6CF /* Debug */,
+				0417944522363BBE008DA6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0417940922363BBB008DA6CF /* Project object */;
+}
