@@ -54,8 +54,8 @@
 //        [Bugly reportExceptionWithCategory:3 name:exception.name reason:[NSString stringWithFormat:@"%@  崩溃位置:%@",exception.reason,exception.userInfo[@"location"]] callStack:@[exception.userInfo[@"callStackSymbols"]] extraInfo:exception.userInfo terminateApp:NO];
     }];
 
-        id testnil = nil;
-    [@"" stringByAppendingString:testnil];
+//        id testnil = nil;
+//    [@"" stringByAppendingString:testnil];
     
 
     return YES;

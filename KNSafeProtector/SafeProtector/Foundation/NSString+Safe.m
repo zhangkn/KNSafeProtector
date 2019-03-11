@@ -77,10 +77,6 @@
 
 /**
  2019-03-11 17:39:59.637936+0800 KNSafeProtector[4546:1525728] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[__NSCFConstantString stringByAppendingString:]: nil argument'
-
-
- @param aString <#aString description#>
- @return <#return value description#>
  */
 - (NSString *)safe_stringByAppendingString:(NSString *)aString
 {
